@@ -23,7 +23,7 @@ def animationofjuly():
         t.goto(x, y)
         t.pendown()
       #make sure the colors are correct
-        colors = [ "green","red", "yellow", "blue,  "orange", "purple"]
+        colors = [ "green","red", "yellow", "blue",  "orange", "purple"]
         for _ in range(36):
         #this is the color choice needed and the positions
             t.color(random.choice(colors))
