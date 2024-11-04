@@ -3,11 +3,7 @@ import turtle as t
 from tqdm import tqdm
 import random
 #add all of the libraries installed
-def thisload():
-  #create the initial loading with the fireworks 
-    print("Welcome to Hello World Partyyyyy")
-    for i in tqdm(range(100), desc="Loading"):
-        time.sleep(0.07) #make the time sleep
+
 def animationofjuly():
     t.bgcolor("green")
     t.speed(0)
@@ -32,6 +28,11 @@ def animationofjuly():
             t.right(160)  
         time.sleep(0.7) 
         #easily make sure item is sleeping
+def thisload():
+  #create the initial loading with the fireworks 
+    print("Welcome to Hello World Partyyyyy")
+    for i in tqdm(range(100), desc="Loading"):
+        time.sleep(0.07) #make the time sleep
 def main():
 #then load it by calling the thisload method
     thisload() 
